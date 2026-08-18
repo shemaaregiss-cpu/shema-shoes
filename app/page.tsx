@@ -18,16 +18,16 @@ export default function Home() {
   }, [heroVideos.length]);
 
   const trendingShoes = [
-    { id: 1, name: 'Premium Elite Sneaker v1', price: '$40', img: 's1', tag: 'BEST SELLER', size: 'large' },
-    { id: 2, name: 'Urban Elite Streetwear', price: '$35', img: 'sn1', tag: 'NEW DROP', size: 'small' },
-    { id: 3, name: 'Rugged All-Weather Combat', price: '$45', img: 'b1', tag: 'LIMITED', size: 'small' },
-    { id: 4, name: 'Volt Speed Track Runner', price: '$30', img: 'r1', tag: 'HOT', size: 'small' },
-    { id: 5, name: 'Classic Premium Oxford', price: '$40', img: 'f2', tag: 'ELEGANCE', size: 'large' },
-    { id: 6, name: 'Aero Comfort Summer Slide', price: '$25', img: 's2', tag: 'TRENDING', size: 'small' },
-    { id: 7, name: 'Hyper-Light Active Runner', price: '$35', img: 'r2', tag: '50% OFF', size: 'small' },
-    { id: 8, name: 'Sleek Executive Derby Leather', price: '$45', img: 'f1', tag: 'EXCLUSIVE', size: 'large' },
-    { id: 9, name: 'Street Culture Court Mid', price: '$35', img: 'sn2', tag: 'POPULAR', size: 'small' },
-    { id: 10, name: 'Vanguard All-Terrain Boot', price: '$40', img: 'b2', tag: 'WINTER CHIC', size: 'small' },
+    { id: 1, name: 'Premium Elite Sneaker v1', price: '40k Rwf', img: 's1', tag: 'BEST SELLER', size: 'large' },
+    { id: 2, name: 'Urban Elite Streetwear', price: '35k Rwf', img: 'sn1', tag: 'NEW DROP', size: 'small' },
+    { id: 3, name: 'Rugged All-Weather Combat', price: '45 Rwf', img: 'b1', tag: 'LIMITED', size: 'small' },
+    { id: 4, name: 'Volt Speed Track Runner', price: '33k Rwf', img: 'r1', tag: 'HOT', size: 'small' },
+    { id: 5, name: 'Classic Premium Oxford', price: '42k Rwf', img: 'f2', tag: 'ELEGANCE', size: 'large' },
+    { id: 6, name: 'Aero Comfort Summer Slide', price: '25k Rwf', img: 's2', tag: 'TRENDING', size: 'small' },
+    { id: 7, name: 'Hyper-Light Active Runner', price: '33k Rwf', img: 'r2', tag: '50% OFF', size: 'small' },
+    { id: 8, name: 'Sleek Executive Derby Leather', price: '42k Rwf', img: 'f1', tag: 'EXCLUSIVE', size: 'large' },
+    { id: 9, name: 'Street Culture Court Mid', price: '35k Rwf', img: 'sn2', tag: 'POPULAR', size: 'small' },
+    { id: 10, name: 'Vanguard All-Terrain Boot', price: '38k Rwf ', img: 'b2', tag: 'WINTER CHIC', size: 'small' },
   ];
 
   const categories = [
