@@ -16,7 +16,7 @@ export default function CategoryPage({ params }: { params: Promise<{ id: string 
   const categoryId = resolvedParams.id?.toLowerCase() || 'sneakers';
   const whatsappNumber = '250708563094';
 
-  const prices = ['$30', '$35', '$40', '$25', '$45'];
+  const prices = ['30k Rwf', '35k Rwf', '40k Rwf', '25k Rwf', '45k Rwf', '30k Rwf'];
 
   const productsDatabase: Record<string, Product[]> = {
     sneakers: Array.from({ length: 15 }, (_, i) => ({
