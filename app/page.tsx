@@ -8,7 +8,7 @@ export default function Home() {
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const whatsappNumber = '250780563094';
-  const welcomeMessage = 'Welcome to shema shoes store, which kind of shoes are you looking for? We have a wide range of sneakers, boots, sandals, and formal shoes.';
+  const welcomeMessage = 'Welcome to Shema sneakers rw — which kind of sneakers are you looking for? We have a wide range of sneakers, boots, sandals, and formal shoes.';
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -56,7 +56,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-t from-[#003366]/40 via-transparent to-[#003366]/20 z-15 pointer-events-none" />
 
         <div className="relative z-20 text-center bg-[#003366]/70 px-10 py-12 rounded-xl backdrop-blur-md border border-[#F5DEB3]/30 max-w-xl mx-4 shadow-2xl pointer-events-none">
-          <h1 className="text-4xl md:text-6xl font-black text-[#F5DEB3] tracking-widest uppercase mb-4">SHEMA SHOES</h1>
+          <h1 className="text-4xl md:text-6xl font-black text-[#F5DEB3] tracking-widest uppercase mb-4">SHEMA SNEAKERS RW</h1>
           <div className="w-24 h-1 bg-[#F5DEB3] mx-auto mb-6"></div>
           <p className="text-[#F5DEB3]/90 text-lg md:text-xl font-light uppercase tracking-wider">Luxury Footwear Experience</p>
         </div>

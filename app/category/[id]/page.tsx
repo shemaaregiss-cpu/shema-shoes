@@ -15,7 +15,7 @@ export default function CategoryPage({ params }: { params: Promise<{ id: string 
 
   const categoryId = resolvedParams.id?.toLowerCase() || 'sneakers';
   const whatsappNumber = '250780563094';
-  const welcomeMessage = 'Welcome to shema shoes store';
+  const welcomeMessage = 'Welcome to Shema sneakers rw';
 
   const prices = ['30k Rwf', '35k Rwf', '40k Rwf', '25k Rwf', '45k Rwf', '30k Rwf'];
 

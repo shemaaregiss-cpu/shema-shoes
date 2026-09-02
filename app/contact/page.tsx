@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 
 export default function ContactPage() {
   const whatsappNumber = '250780563094';
-  const welcomeMessage = 'Welcome to shema shoes store';
+  const welcomeMessage = 'Welcome to Shema sneakers rw';
 
   const [formData, setFormData] = useState({
     name: '',
@@ -135,7 +135,7 @@ I am reaching out through the website contact form:
               </svg>
               <h2 className="text-xl font-black uppercase tracking-widest text-[#003366]">Working Hours</h2>
             </div>
-            <p className="text-[#003366] font-black text-xs tracking-wider uppercase">Plan your next luxury visit to Shema Shoes</p>
+            <p className="text-[#003366] font-black text-xs tracking-wider uppercase">Plan your next luxury visit to Shema sneakers rw</p>
           </div>
           <div className="overflow-hidden border-2 border-[#003366] rounded-xl bg-white">
             <table className="w-full border-collapse text-left text-sm">

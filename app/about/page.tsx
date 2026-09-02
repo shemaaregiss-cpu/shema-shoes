@@ -30,7 +30,7 @@ export default function AboutPage() {
 
           <div className="border-l-4 border-[#F5DEB3] pl-6 md:pl-8 my-4">
             <p className="text-xl md:text-2xl font-black italic text-[#003366] leading-relaxed tracking-wide">
-              "At Shema Shoes, our vision is simple: deliver high-quality, affordable footwear for every moment of your life. Whether you shop online on the go or visit our storefront, we promise a royal experience. We don’t just sell shoes; we dress you like royalty from the ground up. Your confidence and your smile are our ultimate reward."
+              "At Shema sneakers rw, our vision is simple: deliver high-quality, affordable footwear for every moment of your life. Whether you shop online on the go or visit our storefront, we promise a royal experience. We don’t just sell shoes; we dress you like royalty from the ground up. Your confidence and your smile are our ultimate reward."
             </p>
           </div>
         </div>
@@ -99,7 +99,7 @@ export default function AboutPage() {
           </div>
 
           <div className="mt-12 pt-6 border-t border-neutral-100 flex items-center justify-between text-[10px] font-black uppercase tracking-widest text-neutral-400">
-            <span>Shema Shoes Professional Network</span>
+            <span>Shema sneakers rw Professional Network</span>
             <span>Kigali, Rwanda</span>
           </div>
 

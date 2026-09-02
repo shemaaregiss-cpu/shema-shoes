@@ -8,7 +8,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const router = useRouter();
   const pathname = usePathname();
   const whatsappNumber = '250780563094';
-  const welcomeMessage = 'Welcome to shema shoes store';
+  const welcomeMessage = 'Welcome to Shema sneakers rw';
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(welcomeMessage)}`;
 
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -100,14 +100,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <a href="/" className="flex items-center gap-2 sm:gap-4 min-w-0 group">
               <img
                 src="/logo.png"
-                alt="Shema Shoes Logo"
+                alt="Shema sneakers rw Logo"
                 className="h-16 sm:h-18 md:h-22 w-auto object-contain shrink-0"
                 onError={(e) => {
                   (e.target as HTMLImageElement).style.display = 'none';
                 }}
               />
               <span className="text-sm sm:text-base md:text-2xl font-black tracking-wider sm:tracking-widest text-[#F5DEB3] uppercase truncate">
-                SHEMA SHOES
+                SHEMA SNEAKERS RW
               </span>
             </a>
             <nav className="hidden lg:flex items-center gap-16 font-bold uppercase tracking-widest text-base">
@@ -205,7 +205,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#1ebe5d] text-white rounded-full shadow-2xl flex items-center justify-center gap-2 px-4 py-3 sm:px-5 sm:py-4 transition-all duration-300 hover:scale-105 active:scale-95"
-          aria-label="Chat with Shema Shoes on WhatsApp"
+          aria-label="Chat with Shema sneakers rw on WhatsApp"
           title="Chat with us on WhatsApp"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" className="shrink-0">
@@ -226,7 +226,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </button>
 
         <footer className="bg-[#002a55] text-center py-6 border-t border-[#F5DEB3]/20 text-xs text-[#F5DEB3]/70 uppercase tracking-widest">
-          &copy; {new Date().getFullYear()} Shema Shoes. All rights reserved.
+          &copy; {new Date().getFullYear()} Shema sneakers rw. All rights reserved.
         </footer>
       </body>
     </html>
